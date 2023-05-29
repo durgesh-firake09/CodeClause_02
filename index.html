@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=8 initial-scale=1.0">
+    <title>Timer and Stopwatch</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Timer and Stopwatch</h1>
+        </div>
+        <hr>
+        <div class="select-option" id="select">
+            <select name="option" id="option">
+                <option value="default" selected>Choose </option>
+                <option value="Timer">Timer</option>
+                <option value="Stopwatch">Stopwatch</option>
+            </select>
+            <button id="go">Go</button>
+        </div>
+    </div>
+
+    <div id="timer">
+        <!-- Timer -->
+        <div class="timer">
+            <div class="timer-heading">
+                <h1>Timer</h1>
+            </div>
+
+            <div class="timer-input">
+                <div class="timer-input-time">
+                    <input type="number" id="hourst" value="00" placeholder="00" min="0" max="23">
+                    <input type="number" id="minutest" value="00" placeholder="00" min="0" max="59">
+                    <input type="number" id="secondst" value="00" placeholder="00" min="0" max="59">
+                </div>
+                <div class="timer-input-btn">
+                    <button id="sett">Start</button>
+                    <button id="stopt">Stop</button>
+
+                </div>
+            </div>
+            <div class="timer-display">
+                <div id="timer-display-timet">
+                    <span id="displayt">00:00:00</span>
+                </div>
+                <div class="timer-display-btn">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div id="stopwatch">
+        <!-- Stopwatch -->
+        <div class="stopwatch">
+            <div class="stopwatch-heading">
+                <h1>Stopwatch</h1>
+            </div>
+            <div class="stopwatch-display">
+                <div class="stopwatch-display-time">
+                    <span id="display">00:00:00</span>
+                </div>
+                <div class="stopwatch-display-btn">
+                    <button id="start">Start</button>
+                    <button id="stop">Stop</button>
+                    <button id="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script>
+
+
+    </script>
+</body>
+
+</html>

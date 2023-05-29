@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300;500&display=swap');
+
+* {
+    font-family: 'Changa', sans-serif;
+
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+.heading {
+    text-align: center;
+    margin: 20px;
+}
+
+select {
+    margin: 20px 0;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 0px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+
+.stopwatch-display,
+.timer-display {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+
+#display,
+#displayt {
+    margin: 30px 0;
+    padding: 0 20px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 80px;
+    text-align: center;
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.stopwatch-display-time,
+.timer-display-timet {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.stopwatch-heading,
+.timer-heading {
+    margin: 20px;
+}
+
+.timer input {
+    padding: 7px;
+    border: 2px solid black;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+button:hover {
+    box-shadow: 4px 4px 13px;
+}
+
+
+.timer-input-btn,
+.stopwatch-input-btn {
+    margin: 20px 0;
+}
